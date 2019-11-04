@@ -1,0 +1,9 @@
+asdfazfscas
+	import tabula
+	from nltk.tokenize import word_tokenize
+	from nltk.corpus import stopwords
+	pdfFileObj = open('PDF_in\\'+ file_name +'.pdf','rb')
+	pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+	#print('pages:'+str(pdfReader.numPages))
+	pageObj = pdfReader.getPage(0)
+	return pageObj.extractText()

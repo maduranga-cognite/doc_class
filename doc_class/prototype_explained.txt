@@ -1,0 +1,5 @@
+	1.Bar chart to get the counts of all documents types.
+	2.Checking for imbalanceness.(here the documents set is balanced)
+		i)Methodologies to do upsampling 
+			{Synthetic Minority Oversampling Technique (SMOTE)}
+				Smote may generate texts which may be not actual texts
